@@ -27,7 +27,7 @@ These two versions are typically synced, but occasionally the SSC version may be
 
 ## Description: 
 
-`autorename` is a [Stata](http://www.stata.com) command that renames variables according to a row in the dataset.
+`autorename` is a [Stata](http://www.stata.com) command that renames variables using a row of data. This can be useful when reading oddly formatted datasets.
 
 For more details, see the Stata help file included in this package.
 
