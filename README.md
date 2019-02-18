@@ -1,33 +1,33 @@
-# SORTOBS: sort observations into a specified order
+# AUTORENAME: rename variables using a row of data
 
-- Current version: `1.1 16sep2010`
+- Current version: `1.0.1 8jul2009`
 - Jump to: [`updates`](#recent-updates) [`install`](#install) [`description`](#description) [`author`](#author)
 
 -----------
 
 ## Updates:
 
-* **September 16, 2010**
-  - Added `before()` and `after()` options
+* **July 8, 2009**
+  - Added `nodestring` options
 
 ## Install:
 
-Type `which sortobs` at the Stata prompt to determine which version you have installed. To install the most recent version of `sortobs`, copy/paste the following line of code:
+Type `which autorename` at the Stata prompt to determine which version you have installed. To install the most recent version of `autorename`, copy/paste the following line of code:
 
 ```
-net install sortobs, from("https://raw.githubusercontent.com/reifjulian/svret/master") replace
+net install autorename, from("https://raw.githubusercontent.com/reifjulian/autorename/master") replace
 ```
 
 To install the version that was uploaded to SSC, copy/paste the following line of code:
 ```
-ssc install sortobs, replace
+ssc install autorename, replace
 ```
 
 These two versions are typically synced, but occasionally the SSC version may be slightly out of date.
 
 ## Description: 
 
-`sortobs` is a [Stata](http://www.stata.com) command that sorts observations into an order specified by the user.
+`autorename` is a [Stata](http://www.stata.com) command that renames variables according to a row in the dataset.
 
 For more details, see the Stata help file included in this package.
 
