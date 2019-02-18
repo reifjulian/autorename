@@ -1,6 +1,6 @@
 v 3
-d svret. Sort observations into a specified order.
+d autorename. Rename variables using a row of data.
 d Julian Reif, University of Illinois (jreif@illinois.edu)
 
-f /src/sortobs.ado
-f /src/sortobs.hlp
+f /src/autorename.ado
+f /src/autorename.hlp
